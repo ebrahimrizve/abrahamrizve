@@ -1,48 +1,97 @@
-*{
+body{
+    font-family: 'Poppins', sans-serif;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
-
-body, html{
+h1{
+    font-size: 50px;
+}
+.name-highlight{
+    color: salmon;
+}
+.name-high{
+    color: fuchsia;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
     width: 100%;
+}
+.top-banner{
+   background-image: url("images/top-banner.png");
+   background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, fuchsia);
+    padding: 10px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.link-top{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, orange tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: orange;
+    font-weight: 700;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.style-awesome{
+    color: orange;
+}
+.go-daddy{
+    font-size: 50px;
+}
+.go-fish{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
     background-color: #efefef;
-    font-size: 16px;
-    color: #222222;
 }
-.wrap {
-    width: 80%;
-    min-height: 500px;
-    margin: 0 auto;
-    background-color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: stretch;
+.express-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
 
 }
-
-
-.box {
-   
-    min-width: 100px ;
-   
-    
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
 
 }
-.one {
-    background-color: salmon;
-  
-}
-.two {
-    background-color: palegreen;
-    
-}
-.three {
-    background-color: skyblue;
-    
-}
-.four {
-    background-color: fuchsia;
-    
-}
+.go-am{
+    color: salmon;
+}   
+
+
+        
+
+
+
